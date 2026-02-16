@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TazeHava - Destek</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #4A90D9, #67B8DE, #87CEEB);
+            min-height: 100vh;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .app-icon {
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 48px;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            font-size: 16px;
+            opacity: 0.85;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 20px;
+        }
+
+        .card h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .card p, .card li {
+            font-size: 15px;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+
+        .card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .card ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .card ul li:last-child {
+            border-bottom: none;
+        }
+
+        .card ul li strong {
+            display: block;
+            margin-bottom: 2px;
+            opacity: 1;
+        }
+
+        .contact-link {
+            display: inline-block;
+            margin-top: 16px;
+            padding: 12px 28px;
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 12px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            transition: background 0.2s;
+        }
+
+        .contact-link:hover {
+            background: rgba(255, 255, 255, 0.35);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 13px;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="app-icon">🌤</div>
+            <h1>TazeHava</h1>
+            <p>Hava durumu, her zaman taze.</p>
+        </div>
+
+        <div class="card">
+            <h2>Destek</h2>
+            <p>TazeHava ile ilgili sorulariniz, geri bildirimleriniz veya sorunlariniz icin bizimle iletisime gecebilirsiniz.</p>
+            <a href="mailto:mertgurcan@alumni.bilkent.edu.tr" class="contact-link">Bize Yazin</a>
+        </div>
+
+        <div class="card">
+            <h2>Sikca Sorulan Sorular</h2>
+            <ul>
+                <li>
+                    <strong>Konum izni neden gerekli?</strong>
+                    Bulundugunuz konumdaki hava durumunu gosterebilmemiz icin konum izninize ihtiyacimiz var. Konum bilginiz yalnizca hava durumu verisi almak icin kullanilir.
+                </li>
+                <li>
+                    <strong>Hava durumu guncellenmiyor, ne yapmaliyim?</strong>
+                    Internet baglantinizi kontrol edin ve uygulamayi yeniden acmayi deneyin. Sorun devam ederse bize yazin.
+                </li>
+                <li>
+                    <strong>Birden fazla sehir ekleyebilir miyim?</strong>
+                    Evet, uygulama icerisindeki sehir seciciden yeni sehirler ekleyebilir ve arasinda gecis yapabilirsiniz.
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Gizlilik</h2>
+            <p>TazeHava, kullanicilarinin gizliligine onem verir. Konum bilginiz yalnizca hava durumu verisi almak icin kullanilir ve ucuncu taraflarla paylasilmaz. Uygulama hicbir kisisel veriyi toplamaz veya saklamaz.</p>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Mert Gurcan. Tum haklari saklidir.
+        </div>
+    </div>
+</body>
+</html>
